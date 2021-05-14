@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Physical Fitness Test</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <h2>Basic Form with Input Fields</h2>
+    <div>
+        <form>
+            <p>
+                <label>Name: <input /></label>
+            </p>
+            <p>
+                <label>Rank: <input /></label>
+            </p>
+            <p>
+                <label>Unit: <input /></label>
+            </p>
+            <p>
+                <label>HT/WT: <input /></label>
+            </p>
+            <p>
+                <label>Previous Score: <input /></label>
+            </p>
+        </form>
+    </div>
+    <br />
+    <div style="border: solid 2px black; padding: .5rem">
+        <form>
+            <fieldset>
+                <legend>Grader Information</legend>
+                <p>
+                    <label>
+                        Grader Name:
+                        <input name="name" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Rank:
+                        <input type="Rank" name="Rank" />
+                    </label> 
+                </p>
+                <p>
+                    <label>
+                        Email Address:
+                        <input type="email" name="email" />
+                    </label>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+
+    <br />
+        <fieldset>
+            <legend>Push-Ups</legend>
+            <p>
+                <input type="radio" name="size"
+                    id="size0" value="size0" />
+                    <label for="size0">GO</labe0>
+            </p>
+            <p>
+                <input type="radio" name="size"
+                    id="size1" value="size1" />
+                <label for="size1">NO GO</label>
+            </p>
+            <p>
+                <label>
+                    Score:
+                    <input type="score" name="score" />
+                </label>
+            </p>
+        </fieldset>
+
+        <br />
+        <fieldset>
+            <legend>Sit-Ups</legend>
+            <p>
+                <input type="radio" name="size"
+                    id="size0" value="size0" />
+                    <label for="size0">GO</labe0>
+            </p>
+            <p>
+                <input type="radio" name="size"
+                    id="size1" value="size1" />
+                <label for="size1">NO GO</label>
+            </p>
+            <p>
+                <label>
+                    Score:
+                    <input type="score" name="score" />
+                </label>
+            </p>
+        </fieldset>
+
+        <br />
+        <fieldset>
+            <legend>Run Time</legend>
+            <p>
+                <label for="time">Total Run Time:</label>
+                <input id="time" name="time" type="time"
+                    min="11:00" max="21:00">
+            </p>
+            <p>
+                <label>
+                    Score:
+                    <input type="score" name="score" />
+                </label>
+            </p>
+            <p>
+                <label for="instructions">Notes:</label>
+                <textarea id="instructions" name="instructions"></textarea>>
+            </p>
+        </fieldset>
+</body>
+</html>
